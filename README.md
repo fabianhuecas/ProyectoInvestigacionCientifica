@@ -5,7 +5,7 @@ En el archivo ProyectoInvestigacion.py se encuentra el programa desarrollado en 
 La matriz de enlaces J se genera en la funcion generar_matriz_J de forma aleatoria pero la semilla es siempre la misma con los resultados
 son siempre los mismos a menos que se cambia la linea rng = np.random.default_rng(20).
 
-### Análisis estático
+## Análisis estático
 
 Todo el proceso de análisis estático se lleva a cabo en la función salida_datos_estatico(). Dentro de esta función se tienen seleccionados 
 los valores del número de spines N=8 y el número de puntos de lambda M=200 aunque se podrían modificar. Los resultados que se muestran en pantalla son:
@@ -24,7 +24,7 @@ Además genera una serie de archivos que ayuda a entender mejor el sistema:
 
 Todo este proceso no debería tardar más de 10 segundos.
 
-### Análisis dinámico.
+## Análisis dinámico.
 
 Todo el proceso de análisis dinámico se lleva a cabo en la función salida_datos_dinamica. En este caso debe introducir por pantalla:
 
@@ -36,7 +36,7 @@ de fidelidad respecto del estado inicial y final en los archivos 'p0.txt' y 'p1.
 Esto es debido a que se escogen muchos términos en el desarrllo del estado segun el operador de evolucion temporal y se examina la norma para cada uno,
 con una restriccion menos fuerte se podria acelerar por mucho el proceso.
 
-### Protocolo adaptada. 
+## Protocolo adaptado. 
 
 Todo el proceso asociado al protocolo avanzado se lleva a cabo en la función salida_datos_dinamica_avanzado. Se pide por pantalla:
 
