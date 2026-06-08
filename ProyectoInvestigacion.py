@@ -120,7 +120,7 @@ def generar_matriz_J(N):
 
     J = np.zeros((N,N)) #matriz J NxN
 
-    rng = np.random.default_rng(20) #generamos semilla, tambien de forma aleatoria
+    rng = np.random.default_rng(20) #generamos semilla
 
     elementos = rng.normal(0.0, 1.0, size=num_elem_indp) #se toman los elementos independientes de la matriz segun distribucion gaussiano (0,1)
 
@@ -193,7 +193,7 @@ def ordenar_con_indices(v):
     pares = list(enumerate(v))
     
     # Modificamos la 'key' para que use abs(x[1])
-    # Mantener reverse=True lo ordena de mayor a menor valor absoluto
+    # Y ordena de mayor a menor valor absoluto con reverse
     pares_ordenados = sorted(pares, key=lambda x: abs(x[1]), reverse=True)
     
     # Separar valores e índices
@@ -273,7 +273,7 @@ def gap(N,dH_dl,autovalores,auto_estados):
         aexc = auto_estados[:,i] # estado i- excitado
         ei = autovalores[i] # nivel de nergia i-excitado
         
-        valor_matriz = np.abs(aexc.T @ dH_dl @ a0) #Esto es <aexct | dH/dl | a0> aprovechando operacion de matrices
+        valor_matriz = np.abs(aexc.T @ dH_dl @ a0) #Esto es <aexct | dH/dl | a0> 
 
         if(valor_matriz>tol): #si es mayor que la tolerancia se propone como el gap
 
