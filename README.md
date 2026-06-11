@@ -10,9 +10,9 @@ son siempre los mismos a menos que se cambie la semilla en la linea rng = np.ran
 Todo el proceso de análisis estático se lleva a cabo en la función salida_datos_estatico(). Dentro de esta función se tienen seleccionados 
 los valores del número de spines N=8 y el número de puntos de lambda M=200 aunque se podrían modificar. Los resultados que se muestran en pantalla son:
 
-- Valor minimo del gap
-- Valor de lambda critico
-- Valor maximo de <psi_exct | dH/dlambda | psi_0>
+- Valor mínimo del gap
+- Valor de lambda crítico
+- Valor máximo de <psi_exct | dH/dlambda | psi_0>
 
 Además genera una serie de archivos que ayuda a entender mejor el sistema:
 
