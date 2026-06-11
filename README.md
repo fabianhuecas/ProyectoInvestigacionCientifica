@@ -2,8 +2,8 @@
 
 En el archivo ProyectoInvestigacion.py se encuentra el programa desarrollado en Python que lleva a cabo todos los resultados.
 
-La matriz de enlaces J se genera en la funcion generar_matriz_J de forma aleatoria pero la semilla es siempre la misma con los resultados
-son siempre los mismos a menos que se cambia la linea rng = np.random.default_rng(20).
+La matriz de enlaces J se genera en la funcion generar_matriz_J de forma aleatoria pero la semilla es siempre la misma con lo que los resultados
+son siempre los mismos a menos que se cambie la semilla en la linea rng = np.random.default_rng(20).
 
 ## Análisis estático
 
