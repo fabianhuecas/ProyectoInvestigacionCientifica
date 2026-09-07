@@ -8,6 +8,19 @@ Numerical simulation of quantum spin systems ($N=8$), static energy gaps, and ti
 
 ---
 
+## 📌 Overview
+
+This repository implements the static and dynamic analysis of quantum spin systems governed by Hamiltonians $H_0$ and $H_1$. The coupling matrix $J$ is generated randomly using a deterministic seed (`rng = np.random.default_rng(20)`) to ensure exact numerical reproducibility across runs.
+
+Key theoretical metrics evaluated:
+- Energy levels: $E_0(\lambda), E_1(\lambda), E_2(\lambda), E_3(\lambda)$
+- Minimum energy gap ($E_{\text{gap}}$):
+  $$E_{\text{gap}} = \min_\lambda \left( E_1(\lambda) - E_0(\lambda) \right)$$
+- Matrix elements for state transitions:
+  $$\left\langle \psi_{\text{exct}} \left\vert{} \frac{dH}{d\lambda} \right\vert{} \psi_0 \right\rangle$$
+
+---
+
 
 
 # Proyecto Investigacion Cientifica
