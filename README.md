@@ -22,7 +22,6 @@ Key theoretical metrics evaluated:
 ---
 
 
-
 # Proyecto Investigacion Cientifica
 
 En el archivo ProyectoInvestigacion.py se encuentra el programa desarrollado en Python que lleva a cabo todos los resultados.
