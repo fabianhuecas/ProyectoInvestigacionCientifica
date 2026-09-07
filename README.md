@@ -21,6 +21,13 @@ Key theoretical metrics evaluated:
 
 ---
 
+## 🚀 Quick Start & Dependencies
+
+### Prerequisites
+Install required numerical libraries:
+```bash
+pip install numpy scipy matplotlib
+
 
 # Proyecto Investigacion Cientifica
 
