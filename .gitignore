@@ -1,0 +1,6 @@
+# Ignore temporary Python files
+__pycache__/
+*.pyc
+
+# Ignore simulation output files
+*.txt
