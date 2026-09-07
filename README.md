@@ -1,3 +1,15 @@
+# 🔬 Proyecto: Investigación Científica (Quantum State Dynamics)
+
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/Docs-GitHub%20Pages-brightgreen)](https://your-username.github.io/your-repo-name)
+
+Numerical simulation of quantum spin systems ($N=8$), static energy gaps, and time-dependent state evolution under dynamic and adaptive adiabatic protocols.
+
+---
+
+
+
 # Proyecto Investigacion Cientifica
 
 En el archivo ProyectoInvestigacion.py se encuentra el programa desarrollado en Python que lleva a cabo todos los resultados.
