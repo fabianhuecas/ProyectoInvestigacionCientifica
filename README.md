@@ -27,6 +27,7 @@ Key theoretical metrics evaluated:
 Install required numerical libraries:
 ```bash
 pip install numpy scipy matplotlib
+```
 
 
 # Proyecto Investigacion Cientifica
