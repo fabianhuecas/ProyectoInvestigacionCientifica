@@ -3,7 +3,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Simulación numérica de sistemas de espín cuántico ($N=8$), cálculo de gaps de energía estáticos y evolución temporal de estados bajo protocolos dinámicos y adiabáticos adaptados.
+Simulación numérica de sistemas de espín cuántico (número de spines $N=8$), cálculo de gaps de energía estáticos y evolución temporal de estados bajo protocolos dinámicos y adiabáticos adaptados.
 
 ---
 
